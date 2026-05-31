@@ -78,5 +78,3 @@ This project was built collaboratively during the GDG Vizag APL Hackathon.
 * **Jayadhar Ummadisingu** (Frontend Architecture & UI/UX) - [GitHub](https://github.com/U-Jayadhar/)
 * **Vijay Kumar Tholeti** (Backend API, AI Agents & Supabase) - [GitHub](https://github.com/vijay-2155/)
 * **Reddy Velangani Ridhima** (Ideation & Support) - [GitHub](https://github.com/rvridhima)
-
-```
