@@ -9,7 +9,7 @@ export default function LandingPage() {
 
       <div className="max-w-4xl mx-auto text-center z-10 mt-12 md:mt-0">
         <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sky/30 text-ocean text-sm font-semibold shadow-sm border border-sky/50">
-          <span>🌊</span> RK Beach & Yarada Initiative
+          <span>🌊</span> The Beach Eco-Lifeline
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold font-heading mb-6 tracking-tight text-dark">
@@ -25,13 +25,13 @@ export default function LandingPage() {
             href="/report"
             className="w-full sm:w-auto px-8 py-4 bg-ocean text-white font-bold rounded-xl shadow-lg hover:bg-ocean/90 hover:-translate-y-0.5 transition-all text-center"
           >
-            Report an Incident
+            🚨 Report an Incident
           </Link>
           <Link
             href="/dashboard"
             className="w-full sm:w-auto px-8 py-4 bg-white text-ocean font-bold rounded-xl shadow-sm border border-gray-200 hover:bg-gray-50 transition-all text-center"
           >
-            Supervisor Access
+            GVMC Dashboard
           </Link>
         </div>
       </div>
