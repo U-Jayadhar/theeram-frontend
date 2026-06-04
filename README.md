@@ -44,8 +44,8 @@ To run this Next.js frontend locally:
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/U-Jayadhar/theeram-frontend.git](https://github.com/U-Jayadhar/theeram-frontend.git)
-cd theeram-frontend
+git clone [https://github.com/U-Jayadhar/theeram.git](https://github.com/U-Jayadhar/theeram.git)
+cd theeram
 
 ```
 
