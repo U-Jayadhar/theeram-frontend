@@ -9,7 +9,6 @@ This repository contains the frontend architecture, built by **Team Jaya** for t
 ## 🔗 Project Links
 
 * **Live Frontend Deployment:** [theeram.ujayadhar.dev](https://theeram.ujayadhar.dev/)
-* **Backend Repository (Agents):** [Theeram Backend](https://github.com/U-Jayadhar/theeram-backend.git)
 
 ---
 
