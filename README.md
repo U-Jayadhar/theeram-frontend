@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌊 Theeram | RK Beach "Eco-Lifeline" Sentinel
 
-## Getting Started
+**Theeram** is a master solution for beach safety (rip currents) and civic sanitation (marine debris) at RK Beach and Yarada in Visakhapatnam. 
 
-First, run the development server:
+This repository contains the frontend architecture, built by **Team Jaya** for the **GDG Vizag Agentic Premier League (APL)**. It features a mobile-optimized public reporting portal and a desktop-optimized command center for the Greater Visakhapatnam Municipal Corporation (GVMC), designed to interface seamlessly with our multi-agent AI backend.
+
+---
+
+## 🔗 Project Links
+
+* **Live Frontend Deployment:** [theeram.ujayadhar.dev](https://theeram.ujayadhar.dev/)
+
+---
+
+## 🛠️ Tech Stack & Design System
+
+* **Framework:** Next.js 16.2 (App Router)
+* **Styling:** Tailwind CSS v4
+* **Language:** TypeScript
+* **Typography:** Plus Jakarta Sans (Headings) & Inter (Body)
+* **Integration:** RESTful API polling and multi-part form data submission for Supabase & Gemini AI Studio.
+
+---
+
+## 🖥️ Core Frontend Features
+
+### 1. Anonymous Field Reporter (Mobile-First)
+A heavily optimized mobile web interface for citizens and beachgoers to report live incidents.
+* **Smart Uploads:** Direct image capture and file upload for visual evidence.
+* **Auto-Geolocation:** Utilizes the browser's Geolocation API to instantly acquire and append high-accuracy GPS coordinates (Latitude/Longitude).
+* **Frictionless UX:** Requires minimal text input, offloading the heavy analysis to Backend Agent 1 (Gemini Vision).
+
+### 2. GVMC Command Center (Desktop-Optimized)
+A real-time dashboard for supervisors to monitor the coastline and manage automated dispatches.
+* **Live Incident Feed:** Dynamically fetches and displays pending hazards and debris reports directly from the Supabase backend.
+* **Metadata Parsing:** Visualizes AI-generated severity levels, classification tags, and location data in a clean data grid.
+* **Agent 3 Trigger:** An interactive dispatch hub allowing supervisors to manually deploy automated responder emails (via Nodemailer) to cleanup teams or lifeguards.
+
+---
+
+## 🚀 Local Development Setup
+
+To run this Next.js frontend locally:
+
+**1. Clone the repository**
+```bash
+git clone [https://github.com/U-Jayadhar/theeram.git](https://github.com/U-Jayadhar/theeram.git)
+cd theeram
+
+```
+
+**2. Install dependencies**
+
+```bash
+npm install
+
+```
+
+**3. Configure Environment Variables**
+Ensure you have the backend running locally or map the API routes in `.env.local` to the deployed backend URL.
+
+**4. Start the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👨‍💻 Team Jaya | Contributors
 
-## Learn More
+This project was built collaboratively during the GDG Vizag APL Hackathon.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Jayadhar Ummadisingu** (Frontend Architecture & UI/UX) - [GitHub](https://github.com/U-Jayadhar/)
+* **Vijay Kumar Tholeti** (Backend API, AI Agents & Supabase) - [GitHub](https://github.com/vijay-2155/)
+* **Reddy Velangani Ridhima** (Ideation & Support) - [GitHub](https://github.com/rvridhima)
