@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jakarta.variable} ${inter.variable} antialiased`}>
+      <body className={`${jakarta.className} ${inter.className} antialiased`}>
         {children}
       </body>
     </html>

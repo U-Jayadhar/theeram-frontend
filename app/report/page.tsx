@@ -264,7 +264,7 @@ export default function AnonymousReportForm() {
               disabled={isSubmitting}
               className="w-full md:w-auto md:min-w-[300px] py-4 px-8 bg-ocean text-white font-bold rounded-xl shadow-md hover:bg-ocean/90 active:scale-[0.98] disabled:opacity-50 transition-all cursor-pointer text-base"
             >
-              {isSubmitting ? 'Transmitting Data...' : 'Dispatch Alert'}
+              {isSubmitting ? 'Submitting...' : 'Submit Report'}
             </button>
 
             {submitStatus && (
